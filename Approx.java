@@ -16,7 +16,7 @@ public class Approx {
     static double elapsedTime = endTime - startTime;
     static double acceleration = 9.8;
 
-    //calculates the area of a function 
+    //calculates the area under a function 
     static double reinmann(int numRectangles, double start, double end) {
         double deltaX = deltaX(start, end, numRectangles);
         double sum = 0;
